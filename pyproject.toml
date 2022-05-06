@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "live-2p"
+version = "0.1.0"
+description = ""
+authors = ["iharuya <i4haruya@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+absl-py = "0.13.0"
+attrs = "21.2.0"
+mediapipe = "0.8.5"
+numpy = "1.20.3"
+opencv-contrib-python = "4.5.2.54"
+opencv-python = "4.5.2.54"
+protobuf = "3.17.3"
+six = "1.16.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
